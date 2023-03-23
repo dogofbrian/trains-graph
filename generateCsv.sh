@@ -1,11 +1,12 @@
 #!/bin/bash
 # Uses python 3
-importDir=~/neo4j/neo4j-enterprise-5.6.0/import/
+importDir=$1
+asAtDate=$2
+
 outputDir=output
 tempDir=temp
-asAtDate=230117
-sourceSchedulesFile=data/RJTTF622.MCA
-sourceDistancesFile=data/RJRG0731.RGD
+sourceSchedulesFile=data/RJTT*.MCA
+sourceDistancesFile=data/RJRG*.RGD
 locationsSourceFile=data/locations.csv
 locationsExtraSourceFile=data/locations_extra.csv
 stationsFile=$tempDir/stations
