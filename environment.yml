@@ -1,0 +1,4 @@
+name: trains
+dependencies:
+  - python=3.10.9
+  - pandas=1.5.3

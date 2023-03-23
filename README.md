@@ -1,0 +1,1 @@
+Simple scripts to transform Railway Delivery Group timetable and station link files into CSVs for consumption by a Cypher script that imports the data into a simple railway model. Relies on a few hand crafted files that supplement missing data and links. Oh and there are Operator and Location files as well.

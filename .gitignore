@@ -1,0 +1,5 @@
+.conda
+.vscode
+data/RJ*
+output/*
+temp/
