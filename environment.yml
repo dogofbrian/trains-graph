@@ -1,4 +1,8 @@
 name: trains
 dependencies:
-  - python=3.10.9
+  - python>=3.11.4
   - pandas=1.5.3
+  - pip
+  - pip:
+    - neo4j==5.10
+    - six==1.16.0

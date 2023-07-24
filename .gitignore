@@ -1,5 +1,8 @@
 .conda
+.DS_STORE
 .vscode
+__pycache__
 data/RJ*
 output/*
+staging/*
 temp/

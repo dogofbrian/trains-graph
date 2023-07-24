@@ -32,13 +32,12 @@ Unzip each one. Then copy the following two files to the `data` directory:
 - RJRGnnnn.RGD
 - RJTTnnnn.MCA
 
-## Generate the CSV files from the railway data sets
+## Generate CSV files and import to local Neo4j instance
 
-Then run the command `./generateCsv.sh <import directory> <as at date>` to generate the CSV files that will be imported. For example:
+There is a single script with a number of variables hard coded (suits my lazy self, sorry)
+that does the job end-to-end:
 
 ```sh
-./generateCsv.sh ~/neo4j/neo4j-enterprise-5.7.0/import/ 230117
+./go.sh
 ```
 
-## Import the data to Neo4j
-Then run the script `importTrains.cypher` against the target database.
